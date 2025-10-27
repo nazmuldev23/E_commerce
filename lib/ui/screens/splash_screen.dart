@@ -26,15 +26,15 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.pinkAccent,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
-            Icon(Icons.shopping_bag, size: 100, color: Colors.white),
+            Icon(Icons.shopping_bag_sharp, size: 100, color: Colors.white),
             SizedBox(height: 20),
             Text(
-              "E-Commerce App",
+              "বিকাশ",
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 28,
